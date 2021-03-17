@@ -1,0 +1,82 @@
+
+
+body {
+    
+    background-image: url("http://images.neopets.com/themes/h5/common/loggedout/images/bg-short.png");
+    background-size: cover;
+}
+.strip .bottom {
+    display: grid;
+    grid-template-rows: 1fr 1fr  1fr;
+    
+}
+
+.capsule {
+    border-radius: 20px;
+}
+.bottom {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1003px;
+    height: 556px;
+    margin-left: 10%;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+
+
+.one {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 501px;
+    height: 556px;
+    border-radius: 10px;
+    
+}
+.two {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.three {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.four {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.topnav {
+    
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr 1fr;
+    height: 65px;
+    background-color: rgb(255, 255, 0);
+    position: fixed;
+    width: 100%;
+}
+
+.middle {
+    border: solid black 1px;
+    height: 592px;
+    background-image: url(https://puu.sh/Hq3Fo/157f09e2d2.png);
+}
+
+.strip {
+    font-family: "Cafeteria", 'Arial Bold', sans-serif;
+    letter-spacing: 0.5pt;
+    margin: 10px auto;
+    font-size: 30pt;
+    text-shadow: -3px 3px 2px rgb(0 0 0 / 35%);
+    color: white;
+    
+}
+
+.nav {
+    
+}
+
+.navR {
+    
+}
